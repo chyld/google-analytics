@@ -1,3 +1,11 @@
+<%= link_to "login", '/auth/twitter' %>
+<%= link_to "logout", '/signout' %>
+
+name:
+<%= @auth.try(:name) %>
+
+
+
 <h1>Listing ninjas</h1>
 
 <table>
