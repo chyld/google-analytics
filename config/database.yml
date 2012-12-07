@@ -1,0 +1,17 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: ga_development
+  pool: 5
+  host: localhost
+  username: chyld
+  password:
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: ga_production
+  pool: 5
+  host: localhost
+  username: chyld
+  password:
